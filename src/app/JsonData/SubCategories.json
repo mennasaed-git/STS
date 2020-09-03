@@ -1,0 +1,116 @@
+[
+    {
+        "ID": 3,
+        "Name": "Watches",
+        "Image": "../../assets/watches.jpg",
+        "CategoryId": 1
+    },
+    {
+        "ID": 12,
+        "Name": "Perfumes",
+        "Image": "../../assets/perfumes.jpg",
+        "CategoryId": 4
+    },
+    {
+        "ID": 2,
+        "Name": "Women",
+        "Image": "../../assets/women2.jpg",
+        "CategoryId": 1
+    },
+    {
+        "ID": 4,
+        "Name": "Sports",
+        "Image": "../../assets/fashionsports.jpg",
+        "CategoryId": 1
+    },
+    {
+        "ID": 1,
+        "Name": "Men",
+        "Image": "../../assets/men.png",
+        "CategoryId": 1
+    },
+    {
+        "ID": 5,
+        "Name": "Samsung",
+        "Image": "../../assets/samsung.jpg",
+        "CategoryId": 5
+    },
+    {
+        "ID": 6,
+        "Name": "IPhone",
+        "Image": "../../assets/iphone2.jpg",
+        "CategoryId": 2
+    },
+    {
+        "ID": 7,
+        "Name": "Realme",
+        "Image": "../../assets/realme.jpg",
+        "CategoryId": 2
+    },
+    {
+        "ID": 8,
+        "Name": "OPPO",
+        "Image": "../../assets/oppo.jpg",
+        "CategoryId": 2
+    },
+    {
+        "ID": 9,
+        "Name": "PCs",
+        "Image": "../../assets/PCs.jpg",
+        "CategoryId": 3
+    },
+    {
+        "ID": 10,
+        "Name": "TVs",
+        "Image": "../../assets/TV.jpg",
+        "CategoryId": 3
+    },
+    {
+        "ID": 11,
+        "Name": "Camera",
+        "Image": "../../assets/camera.jpg",
+        "CategoryId": 3
+    },
+    {
+        "ID": 13,
+        "Name": "Skin Care",
+        "Image": "../../assets/skincare.jpg",
+        "CategoryId": 4
+    },
+    {
+        "ID": 14,
+        "Name": "Hair Care",
+        "Image": "../../assets/haircare2.jpg",
+        "CategoryId": 4
+    },
+    {
+        "ID": 15,
+        "Name": "Men's Grooming",
+        "Image": "../../assets/mengrooming.jpg",
+        "CategoryId": 4
+    },
+    {
+        "ID": 16,
+        "Name": "Men's Sportswear",
+        "Image": "../../assets/mensportswear.jpg",
+        "CategoryId" : 5
+    },
+    {
+        "ID": 17,
+        "Name": "Women's Sportswear",
+        "Image": "../../assets/womensportswear.jpg",
+        "CategoryId" : 5
+    },
+    {
+        "ID": 18,
+        "Name": "Exercise Equipement",
+        "Image": "../../assets/sportequipment.jpg",
+        "CategoryId" : 5
+    },
+    {
+        "ID": 19,
+        "Name": "Sport Accessories",
+        "Image": "../../assets/sportaccessories.jpg",
+        "CategoryId" : 5
+    }
+]

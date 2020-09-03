@@ -1,0 +1,42 @@
+[
+    {
+        "ID" : 1,
+        "Name":"Fashion" ,
+        "Image":"../../assets/fashion.jpg"
+    },
+    {
+        "ID" : 2,
+        "Name":"Mobiles" ,
+        "Image":"../../assets/mobiles3.jpg"
+    },
+    {
+        "ID" : 3,
+        "Name":"Electronics" ,
+        "Image":"../../assets/electronics.jpg"
+    },
+    {
+        "ID" : 4,
+        "Name":"Health&Beauty" ,
+        "Image":"../../assets/health&beauty.png"
+    },
+    {
+        "ID" : 5,
+        "Name":"Sports" ,
+        "Image":"../../assets/sports.jpg"
+    },
+    {
+        "ID" : 6,
+        "Name":"Home&Kitchen" ,
+        "Image":"../../assets/kitchenappliance.jpg" 
+    },
+    {
+        "ID" : 7,
+        "Name":"SuperMarket" ,
+        "Image":"../../assets/mobiles.jpg"
+    },
+    {
+        "ID" : 8,
+        "Name":"Baby" ,
+        "Image":"../../assets/mobiles.jpg"
+    }
+]
