@@ -1,56 +1,33 @@
-<p-dataView #dv [value]="products" [paginator]="true" [rows]="6"
- paginatorPosition="both" filterBy="Name" layout="grid">
-    <p-header>
-      <div class="row">
-    
+<p-dataView #dv [value]="products" [paginator]="true" [rows]="6" paginatorPosition="both" filterBy="Name" layout="grid">
+  <p-header>
+    <div class="row">
+
       <div class="col-md-4">
-       <input type="text" class="form-control" size="50"
-       placeholder="Search By Name" (input)="dv.filter($event.target.value)">
-      </div>
-  
-      <div class="col-md-8" style="text-align:right">
-        <p-dataViewLayoutOptions></p-dataViewLayoutOptions>
+        <input type="text" class="form-control SearchInput" size="50" placeholder="Search By Name"
+          (input)="dv.filter($event.target.value)">
       </div>
 
-      </div>
-        
-    </p-header>
-    <ng-template let-product pTemplate="listItem">
-        <div [routerLink]="['/Products', product.Name]">        
-            <div class="row group-details">
-                <div>
-                    <img [src]="product.Image" style="margin-left: 10px;margin-right: 10px;" 
-                    class="img-thumbnail" width="150" height="150">
-                  </div>
-                  <div class="ui-md-9">
-                    <div class="p-grid">
-                        <div class="p-col-12">
-                             <b>{{ product.Name}}</b></div>
-                             
-                                <br>                      
-                    </div>
-                  </div>
-                   
-                  <hr width="90%">
-                <!-- <button pButton type="button" icon="pi pi-search" (click)="selectGroup($event, group)"></button> -->
-            </div>    
+    </div>
+  </p-header>
+  <ng-template let-product pTemplate="gridItem">
+    <div class="p-col-12 col-md-4 itemCard">
+      <p-card (click)="DisplayProductDetails(product.ID)">
+        <img [src]="product.Image" [style]="{'text-align':'center'}" class="img-thumbnail">
+        <br>
+        <strong >{{product.Name}}</strong>
+        <div>{{product.Description | slice:0:250}}</div>
+        <div>
+          <b class="ItemName">${{product.Price}}</b>
         </div>
-    </ng-template>
-    <ng-template let-product pTemplate="gridItem">
-        <div style="padding:.5em" class="p-col-12 col-md-4" [routerLink]="['/Products',product.Name]">
-          <p-card (click)="DisplayProductDetails(product.Name)">
-            <img [src]="product.Image" [style]="{'text-align':'center'}" class="img-thumbnail">
-            <br>
-            <strong>{{product.Name}}</strong>           
-            <div>{{product.Description | slice:0:250}}</div>
-            <div>
-              <b>${{product.Price}}</b>
-          </div>
-          </p-card>
-        </div>
-    </ng-template>
+      </p-card>
+    </div>
+  </ng-template>
 </p-dataView>
-<p-dialog header="{{SelectedProduct.Name}}" 
-[visible]="displayDetails" [style]="{width: '50vw'}" [baseZIndex]="10000">
-
+<p-dialog header="{{SelectedProduct.Name}}" [modal]=true [closable]=true [maximizable]=true 
+[(visible)]="displayDetails" [style]="{width: '50vw'}" [baseZIndex]="10000">
+  <p>{{SelectedProduct.Description}}</p>
+<ng-template pTemplate="footer">
+    <p-button icon="pi pi-check" (click)="displayDetails=false" label="Yes" styleClass="p-button-text"></p-button>
+    <p-button icon="pi pi-times" (click)="displayDetails=false" label="No"></p-button>
+</ng-template>
 </p-dialog>

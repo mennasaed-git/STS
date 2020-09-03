@@ -1,93 +1,93 @@
 [
     {
-        "ID": 3,
+        "ID": 1,
         "Name": "Watches",
         "Image": "../../assets/watches.jpg",
-        "CategoryId": 1
-    },
-    {
-        "ID": 12,
-        "Name": "Perfumes",
-        "Image": "../../assets/perfumes.jpg",
-        "CategoryId": 4
+        "CategoryId": 6
     },
     {
         "ID": 2,
+        "Name": "Perfumes",
+        "Image": "../../assets/perfumes.jpg",
+        "CategoryId": 1
+    },
+    {
+        "ID": 3,
         "Name": "Women",
         "Image": "../../assets/women2.jpg",
-        "CategoryId": 1
+        "CategoryId": 6
     },
     {
         "ID": 4,
         "Name": "Sports",
         "Image": "../../assets/fashionsports.jpg",
-        "CategoryId": 1
-    },
-    {
-        "ID": 1,
-        "Name": "Men",
-        "Image": "../../assets/men.png",
-        "CategoryId": 1
+        "CategoryId": 6
     },
     {
         "ID": 5,
-        "Name": "Samsung",
-        "Image": "../../assets/samsung.jpg",
-        "CategoryId": 5
+        "Name": "Men",
+        "Image": "../../assets/men.png",
+        "CategoryId": 6
     },
     {
         "ID": 6,
+        "Name": "Samsung",
+        "Image": "../../assets/samsung.jpg",
+        "CategoryId": 2
+    },
+    {
+        "ID": 7,
         "Name": "IPhone",
         "Image": "../../assets/iphone2.jpg",
         "CategoryId": 2
     },
     {
-        "ID": 7,
+        "ID": 8,
         "Name": "Realme",
         "Image": "../../assets/realme.jpg",
         "CategoryId": 2
     },
     {
-        "ID": 8,
+        "ID": 9,
         "Name": "OPPO",
         "Image": "../../assets/oppo.jpg",
         "CategoryId": 2
     },
     {
-        "ID": 9,
+        "ID": 10,
         "Name": "PCs",
         "Image": "../../assets/PCs.jpg",
-        "CategoryId": 3
-    },
-    {
-        "ID": 10,
-        "Name": "TVs",
-        "Image": "../../assets/TV.jpg",
-        "CategoryId": 3
+        "CategoryId": 7
     },
     {
         "ID": 11,
+        "Name": "TVs",
+        "Image": "../../assets/TV.jpg",
+        "CategoryId": 7
+    },
+    {
+        "ID": 12,
         "Name": "Camera",
         "Image": "../../assets/camera.jpg",
-        "CategoryId": 3
+        "CategoryId": 7
     },
     {
         "ID": 13,
         "Name": "Skin Care",
         "Image": "../../assets/skincare.jpg",
-        "CategoryId": 4
+        "CategoryId": 1
     },
     {
         "ID": 14,
         "Name": "Hair Care",
         "Image": "../../assets/haircare2.jpg",
-        "CategoryId": 4
+        "CategoryId": 1
     },
     {
         "ID": 15,
         "Name": "Men's Grooming",
         "Image": "../../assets/mengrooming.jpg",
-        "CategoryId": 4
+        "CategoryId": 1
     },
     {
         "ID": 16,
@@ -112,5 +112,11 @@
         "Name": "Sport Accessories",
         "Image": "../../assets/sportaccessories.jpg",
         "CategoryId" : 5
+    },
+    {
+        "ID": 20,
+        "Name": "Baby toys",
+        "Image": "../../assets/babytoys.jpeg",
+        "CategoryId" : 3
     }
 ]

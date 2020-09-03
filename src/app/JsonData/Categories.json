@@ -1,8 +1,9 @@
 [
+    
     {
         "ID" : 1,
-        "Name":"Fashion" ,
-        "Image":"../../assets/fashion.jpg"
+        "Name":"Health&Beauty" ,
+        "Image":"../../assets/health&beauty.png"
     },
     {
         "ID" : 2,
@@ -11,13 +12,13 @@
     },
     {
         "ID" : 3,
-        "Name":"Electronics" ,
-        "Image":"../../assets/electronics.jpg"
+        "Name":"Baby" ,
+        "Image":"../../assets/babyneeds.jpg"
     },
     {
         "ID" : 4,
-        "Name":"Health&Beauty" ,
-        "Image":"../../assets/health&beauty.png"
+        "Name":"SuperMarket" ,
+        "Image":"../../assets/supermarket.jpg"
     },
     {
         "ID" : 5,
@@ -26,17 +27,17 @@
     },
     {
         "ID" : 6,
-        "Name":"Home&Kitchen" ,
-        "Image":"../../assets/kitchenappliance.jpg" 
+        "Name":"Fashion" ,
+        "Image":"../../assets/fashion.jpg"
     },
     {
         "ID" : 7,
-        "Name":"SuperMarket" ,
-        "Image":"../../assets/mobiles.jpg"
+        "Name":"Electronics" ,
+        "Image":"../../assets/electronics.jpg"
     },
     {
         "ID" : 8,
-        "Name":"Baby" ,
-        "Image":"../../assets/mobiles.jpg"
+        "Name":"Home&Kitchen" ,
+        "Image":"../../assets/kitchenappliance.jpg" 
     }
 ]

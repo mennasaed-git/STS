@@ -15,7 +15,7 @@ import {ConfirmDialogModule} from 'primeng/confirmdialog';
 import {ConfirmationService} from 'primeng/api';
 import {CardModule} from 'primeng/card';
 import {DialogModule} from 'primeng/dialog';
-
+import {DropdownModule} from 'primeng/dropdown';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +26,7 @@ import {DialogModule} from 'primeng/dialog';
   ],
   imports: [
     BrowserAnimationsModule,BrowserModule,AppRoutingModule,DataViewModule,PanelModule
-    ,ConfirmDialogModule,CardModule,DialogModule
+    ,ConfirmDialogModule,CardModule,DialogModule,DropdownModule
   ],
   providers: [ConfirmationService],
   bootstrap: [AppComponent]

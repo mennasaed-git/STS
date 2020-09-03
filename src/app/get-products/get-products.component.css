@@ -1,0 +1,22 @@
+.ItemName
+{
+    text-align: center;
+    color: #cc285c;
+    font-size: 20px;
+}
+
+.itemCard{
+    padding:.5em
+}
+
+.itemCard :hover
+{
+    transform: scale(0.8);
+}
+
+.SearchInput
+{
+    border: 2px solid #cc285c; 
+    background-color: black; 
+    color: rgb(194, 200, 206);
+}
