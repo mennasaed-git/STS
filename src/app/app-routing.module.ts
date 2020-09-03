@@ -8,7 +8,8 @@ const routes: Routes = [
   {path:'' , component:GetCategoriesComponent  },
   {path:'Categories' , component:GetCategoriesComponent  },
   {path:'SubCategories/:CategoryId' , component:GetSubcategoriesComponent  },
-  {path:'Products/:SubCategoryId' , component:GetProductsComponent  }
+  {path:'Products/:SubCategoryId' , component:GetProductsComponent  },
+  {path:'**' , component:GetCategoriesComponent  }
 ];
 
 @NgModule({
